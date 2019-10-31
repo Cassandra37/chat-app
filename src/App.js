@@ -1,13 +1,11 @@
 import React from 'react';
 import Contact from './components/Contact.js';
-// import ContactList from './components/ContactList';
+import ContactList from './components/ContactList';
+import './components/chat.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <div>
-        <ContactList />
-      </div> */}
           <Contact avatar="https://randomuser.me/api/portraits/women/17.jpg" 
           name="Anita Sutton" status="Online" online = "true"/>
 
@@ -17,6 +15,7 @@ function App() {
           <Contact avatar="https://randomuser.me/api/portraits/women/76.jpg"
           name="Charlotte Ryan" status="Online" online = "true"/>
 
+          <ContactList />
     </div>    
   );
 }

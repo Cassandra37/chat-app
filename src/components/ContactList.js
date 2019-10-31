@@ -7,35 +7,35 @@ import Contact from './Contact';
             avatar: "https://randomuser.me/api/portraits/women/34.jpg",
             name: "Daisy Graves",
             status: "Online",
-            online: "status-online"
+            online: true,
         },
 
         {
             avatar: "https://randomuser.me/api/portraits/men/50.jpg",
             name: "Warren Moore",
             status: "Online",
-            online: "status-online"
+            online: true,
         },
 
         {
             avatar: "https://randomuser.me/api/portraits/men/23.jpg",
             name: "Clarence Franklin",
             status: "Offline",
-            offline: "status-offline"
+            offline: false,
         },
 
         {
             avatar: "https://randomuser.me/api/portraits/women/51.jpg",
             name: "Carmen Gutierrez",
             status: "Offline",
-            offline: "status-offline"
+            offline: false,
         },
 
         {
             avatar: "https://randomuser.me/api/portraits/women/55.jpg",
             name: "Tracy Bailey",
             status: "Offline",
-            offline: "status-offline"
+            offline: false,
         }
     ]
 
